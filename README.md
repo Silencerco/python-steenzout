@@ -2,9 +2,10 @@
 `steenzout` namespace package.
 
 Namespace packages and regular packages are very similar.
-The differences are:
 
-Portions of namespace packages need not all come from the same directory structure, or even from the same loader.
+The differences are portions of namespace packages need not all come from the same directory structure,
+or even from the same loader.
+
 Regular packages are self-contained: all parts live in the same directory hierarchy.
 
 * namespace packages have no __file__ attribute.
