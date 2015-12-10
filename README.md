@@ -1,7 +1,6 @@
 # python-steenzout
 `steenzout` namespace package.
 
-```
 Namespace packages and regular packages are very similar.
 The differences are:
 
@@ -13,5 +12,5 @@ Regular packages are self-contained: all parts live in the same directory hierar
   which is automatically updated when the parent path is modified.
 * namespace packages have no __init__.py module.
 * namespace packages have a different type of object for their __loader__ attribute.
-```
-from [Differences between namespace packages and regular packages](https://www.python.org/dev/peps/pep-0420/#differences-between-namespace-packages-and-regular-packages).
+
+Taken from [Differences between namespace packages and regular packages](https://www.python.org/dev/peps/pep-0420/#differences-between-namespace-packages-and-regular-packages).
